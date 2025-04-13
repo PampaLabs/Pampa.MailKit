@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Pampa.MailKit.ImapIdle</PackageId>
+        <Version>1.0.0</Version>
+        <PackageVersion>$(Version)</PackageVersion>
+        <PackageTags>MailKit</PackageTags>
+        <Description>This package provides support for IMAP IDLE.</Description>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MailKit" />
+        <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" />
+        <PackageReference Include="System.Reactive" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project>
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Authors>Pampa Contributors</Authors>
+        <Copyright>Copyright (c) 2025</Copyright>
+        <ProjectUrl>https://github.com/PampaLabs/Pampa.MailKit</ProjectUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageReadmeFile></PackageReadmeFile>
+        <RepositoryUrl>https://github.com/PampaLabs/Pampa.MailKit</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+</Project>
